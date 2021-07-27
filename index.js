@@ -248,5 +248,69 @@ bot.on('message', async message => {
 	
 })
 
+//publish Command
+bot.on('message', async message => {
+    const args = message.content.slice(prefix.length).trim().split(/ +/g);
+    const command = args.shift().toLowerCase();
+    const tdc = bot.guilds.cache.get('867202591200510012');
+    if (command === "publish") {
+    message.delete().catch(O_o => { });
+        if (message.author.bot) return;
+        if (!message.member.hasPermission('MANAGE_MESSAGES')) return message.channel.send(`Only staff members can use this command.`);
+        if (message.content.indexOf(prefix) !== 0) return;
+        try {
+
+            const content = args.join(' ').replace(` `, '')
+
+            const embed = new Discord.MessageEmbed()
+            embed.setColor('B39554');
+            embed.setTitle(`New Publish Request by ${message.author.tag}!`);
+            embed.setDescription(`${content}`);
+	    embed.setFooter(`1️⃣ | Publish to <#862706588857925682>`)
+
+            message.channel.send(embed);
+	    message.react('')
+        } catch (e) {
+            
+	const embed = new Discord.MessageEmbed()
+        const guild = bot.guilds.cache.get('835519824414375997');
+
+        embed.setColor('B39554');
+        embed.setTitle(`Error`);
+	embed.setDescription(`**User**: <@!${message.author.id}>\n**Command**: \`=tiktok\`\n**Error**: ${e.toString()}!`);
+
+        const msg = await bot.channels.cache.get('869692720170537020').send(embed)
+		
+        }
+    }
+})
+
+//Publish Reactions
+bot.on('messageReactionAdd', async (reaction, user) => {
+    if (reaction.message.channel.id === '776325286059835462') {
+        const tdc = bot.guilds.cache.get('763565098978770954')
+        if (user.id === bot.user.id) return
+        if (reaction.message.author.id === bot.user.id) {
+            if (reaction._emoji.name === '1️⃣') {
+                const description = reaction.message.embeds[0].description
+                if (reaction) {
+		    await reaction.message.reactions.removeAll()
+                    await reaction.message.channel.send(`The content link \`\`(${description)\`\` has been published to <#862706588857925682>!`)
+		    const embed = new Discord.MessageEmbed()
+                    embed.setColor('B39554');
+                    embed.setTitle(`New YouTube Video!`);
+                    embed.setDescription(`${description}`);
+
+		    const chn = message.channel.id('862706588857925682')
+                    message.chn.send(embed);
+            	    message.chn.send(`<@&869441959004090379>`)
+                } else {
+                    return
+                }
+            }
+        }
+    }
+});
+
 // THIS IS THE bot.login
 bot.login(process.env.token);
