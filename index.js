@@ -49,7 +49,134 @@ bot.on('message', async message => {
 		.setColor('B39554')
 		.setTitle('Commands')
 		.setAuthor('Hive Adventures', 'https://media.discordapp.net/attachments/869402961070141461/869403013679308800/Hice_Adventures.png?width=401&height=401')
-		.setDescription('```Hello and thanks for using Hive Adventures, below is a list of commands that you can use in your server!```\n\nEvents | `=events`')
+		.setDescription('```Hello and thanks for using Hive Adventures, below is a list of commands that you can use in your server!```\n\nServer Info | `=server`\nThe Hive | `=hive`')
+		.setThumbnail('https://media.discordapp.net/attachments/869402961070141461/869403013679308800/Hice_Adventures.png?width=401&height=401')
+		.setTimestamp()
+			
+		message.channel.send(exampleEmbed);
+	}	
+	
+})
+
+//server Command
+bot.on('message', async message => {
+	if (message.content === "=server" ) {
+	const exampleEmbed = new Discord.MessageEmbed()
+		.setColor('B39554')
+		.setTitle('Server')
+		.setAuthor('Hive Adventures', 'https://media.discordapp.net/attachments/869402961070141461/869403013679308800/Hice_Adventures.png?width=401&height=401')
+		.setDescription('Server Rules | `=rules`')
+		.setThumbnail('https://media.discordapp.net/attachments/869402961070141461/869403013679308800/Hice_Adventures.png?width=401&height=401')
+		.setTimestamp()
+			
+		message.channel.send(exampleEmbed);
+	}	
+	
+})
+
+//rules Command
+bot.on('message', async message => {
+	if (message.content === "=rules" ) {
+	const exampleEmbed = new Discord.MessageEmbed()
+		.setColor('B39554')
+		.setTitle('Server Rules')
+		.setAuthor('Hive Adventures', 'https://media.discordapp.net/attachments/869402961070141461/869403013679308800/Hice_Adventures.png?width=401&height=401')
+		.setDescription('Discretion | `=server rule 1`\nDiscord TOS | `=server rule 2`\nLanguage and hate-speech | `=server rule 3`\nUse common sense | `=server rule 4`')
+		.setThumbnail('https://media.discordapp.net/attachments/869402961070141461/869403013679308800/Hice_Adventures.png?width=401&height=401')
+		.setTimestamp()
+			
+		message.channel.send(exampleEmbed);
+	}	
+	
+})
+
+bot.on('message', async message => {
+	if (message.content === "=rule" ) {
+	const exampleEmbed = new Discord.MessageEmbed()
+		.setColor('B39554')
+		.setTitle('Server Rules')
+		.setAuthor('Hive Adventures', 'https://media.discordapp.net/attachments/869402961070141461/869403013679308800/Hice_Adventures.png?width=401&height=401')
+		.setDescription('Discretion | `=server rule 1`\nDiscord TOS | `=server rule 2`\nLanguage and hate-speech | `=server rule 3`\nUse common sense | `=server rule 4`')
+		.setThumbnail('https://media.discordapp.net/attachments/869402961070141461/869403013679308800/Hice_Adventures.png?width=401&height=401')
+		.setTimestamp()
+			
+		message.channel.send(exampleEmbed);
+	}	
+	
+})
+
+//rule 1 command
+bot.on('message', async message => {
+	if (message.content === "=server rule 1" ) {
+	const exampleEmbed = new Discord.MessageEmbed()
+		.setColor('B39554')
+		.setTitle('Rule 1) Discretion')
+		.setAuthor('Hive Adventures', 'https://media.discordapp.net/attachments/869402961070141461/869403013679308800/Hice_Adventures.png?width=401&height=401')
+		.setDescription('You will get punished on behalf of the staff member\'s discretion. All staff have been given the right to act on the situation based off of discretion and the severity of the situation. Therefore, if a staff bends the rules a tiny bit, they have to rights to do so. There is still a fine line between bending them a little and abusing their powers. If you see a staff member abusing their power, come to an Overlord or Warrior!')
+		.setThumbnail('https://media.discordapp.net/attachments/869402961070141461/869403013679308800/Hice_Adventures.png?width=401&height=401')
+		.setTimestamp()
+			
+		message.channel.send(exampleEmbed);
+	}	
+	
+})
+
+//rule 2 command
+bot.on('message', async message => {
+	if (message.content === "=server rule 2" ) {
+	const exampleEmbed = new Discord.MessageEmbed()
+		.setColor('B39554')
+		.setTitle('Rule 2) Discord TOS')
+		.setAuthor('Hive Adventures', 'https://media.discordapp.net/attachments/869402961070141461/869403013679308800/Hice_Adventures.png?width=401&height=401')
+		.setDescription('Not following Discord\'s TOS will get you removed from the server. We are smarter then to let you attempt to get our server removed. If we know that you are breaking the rules, we will contact you and if you aren\'t compliant, you will get removed from the server.')
+		.setThumbnail('https://media.discordapp.net/attachments/869402961070141461/869403013679308800/Hice_Adventures.png?width=401&height=401')
+		.setTimestamp()
+			
+		message.channel.send(exampleEmbed);
+	}	
+	
+})
+
+//rule 3 command
+bot.on('message', async message => {
+	if (message.content === "=server rule 3" ) {
+	const exampleEmbed = new Discord.MessageEmbed()
+		.setColor('B39554')
+		.setTitle('Rule 3) Language and hate-speech')
+		.setAuthor('Hive Adventures', 'https://media.discordapp.net/attachments/869402961070141461/869403013679308800/Hice_Adventures.png?width=401&height=401')
+		.setDescription('We do allow swearing, but to an extent. Do not overuse swearing because you will get punished. Staff have the right to remove you if you get out of hand.\nWe do not allow for people to be racist, homophobic or anything of that nature. If you do not like a certain party and you want to be rude about it, you aren\'t welcome here and we will be sure to tell you to frick off. Staff discretion will also be used when dealing with unnecessary behavior.')
+		.setThumbnail('https://media.discordapp.net/attachments/869402961070141461/869403013679308800/Hice_Adventures.png?width=401&height=401')
+		.setTimestamp()
+			
+		message.channel.send(exampleEmbed);
+	}	
+	
+})
+
+//rule 4 command
+bot.on('message', async message => {
+	if (message.content === "=server rule 4" ) {
+	const exampleEmbed = new Discord.MessageEmbed()
+		.setColor('B39554')
+		.setTitle('Rule 4) Use common sense')
+		.setAuthor('Hive Adventures', 'https://media.discordapp.net/attachments/869402961070141461/869403013679308800/Hice_Adventures.png?width=401&height=401')
+		.setDescription('Otherwise, you must use common sense. If you pose as a threat, you will not be here.')
+		.setThumbnail('https://media.discordapp.net/attachments/869402961070141461/869403013679308800/Hice_Adventures.png?width=401&height=401')
+		.setTimestamp()
+			
+		message.channel.send(exampleEmbed);
+	}	
+	
+})
+
+//Hive Command
+bot.on('message', async message => {
+	if (message.content === "=hive" ) {
+	const exampleEmbed = new Discord.MessageEmbed()
+		.setColor('B39554')
+		.setTitle('The Hive')
+		.setAuthor('Hive Adventures', 'https://media.discordapp.net/attachments/869402961070141461/869403013679308800/Hice_Adventures.png?width=401&height=401')
+		.setDescription('Events | `=hive events`')
 		.setThumbnail('https://media.discordapp.net/attachments/869402961070141461/869403013679308800/Hice_Adventures.png?width=401&height=401')
 		.setTimestamp()
 			
@@ -60,12 +187,12 @@ bot.on('message', async message => {
 
 //Events Command
 bot.on('message', async message => {
-	if (message.content === "=events" ) {
+	if (message.content === "=hive events" ) {
 	const exampleEmbed = new Discord.MessageEmbed()
 		.setColor('B39554')
 		.setTitle('Events')
 		.setAuthor('Hive Adventures', 'https://media.discordapp.net/attachments/869402961070141461/869403013679308800/Hice_Adventures.png?width=401&height=401')
-		.setDescription('**Current Event:**\n`NULL`\n\n**Previous Events:**\nNew Years Event | `=event 2021`\nSonic the Hedgehog | `=event sonic`')
+		.setDescription('**Current Event:**\n`NULL`\n\n**Previous Events:**\nNew Years Event | `=hive event 2021`\nSonic the Hedgehog | `=hive event sonic`')
 		.setThumbnail('https://media.discordapp.net/attachments/869402961070141461/869403013679308800/Hice_Adventures.png?width=401&height=401')
 		.setTimestamp()
 			
@@ -75,12 +202,12 @@ bot.on('message', async message => {
 })
 
 bot.on('message', async message => {
-	if (message.content === "=event" ) {
+	if (message.content === "=hive event" ) {
 	const exampleEmbed = new Discord.MessageEmbed()
 		.setColor('B39554')
 		.setTitle('Events')
 		.setAuthor('Hive Adventures', 'https://media.discordapp.net/attachments/869402961070141461/869403013679308800/Hice_Adventures.png?width=401&height=401')
-		.setDescription('**Current Event:**\n`NULL`\n\n**Previous Events:**\nNew Years Event 2021 | `=event 2021`\nSonic Event 2021 | `=event sonic`')
+		.setDescription('**Current Event:**\n`NULL`\n\n**Previous Events:**\nNew Years Event 2021 | `=hive event 2021`\nSonic Event 2021 | `=hive event sonic`')
 		.setThumbnail('https://media.discordapp.net/attachments/869402961070141461/869403013679308800/Hice_Adventures.png?width=401&height=401')
 		.setTimestamp()
 			
@@ -91,7 +218,7 @@ bot.on('message', async message => {
 
 //Event 2021 Command
 bot.on('message', async message => {
-	if (message.content === "=event 2021" ) {
+	if (message.content === "=hive event 2021" ) {
 	const exampleEmbed = new Discord.MessageEmbed()
 		.setColor('B39554')
 		.setTitle('New Years Event 2021!')
@@ -107,7 +234,7 @@ bot.on('message', async message => {
 
 //Event Sonic Command
 bot.on('message', async message => {
-	if (message.content === "=event sonic" ) {
+	if (message.content === "=hive event sonic" ) {
 	const exampleEmbed = new Discord.MessageEmbed()
 		.setColor('B39554')
 		.setTitle('Sonic Event 2021!')
