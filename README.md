@@ -3,6 +3,6 @@ Hive Adventures is a discord server centered around Minecraft Featured servers, 
 
 ## Bot Settings
 | Setting | Output |
-| ------------- | ------------- |
+|-|-|
 | Theme | Yellow & Blue |
 | Event | Sonic The Hedgehog |
