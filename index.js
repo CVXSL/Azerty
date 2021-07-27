@@ -252,7 +252,7 @@ bot.on('message', async message => {
 bot.on('message', async message => {
     const args = message.content.slice(prefix.length).trim().split(/ +/g);
     const command = args.shift().toLowerCase();
-    const tdc = bot.guilds.cache.get('867202591200510012');
+    const tdc = bot.guilds.cache.get('835519824414375997');
     if (command === "publish") {
     message.delete().catch(O_o => { });
         if (message.author.bot) return;
@@ -268,8 +268,9 @@ bot.on('message', async message => {
             embed.setDescription(`${content}`);
 	    embed.setFooter(`1️⃣ | Publish to <#862706588857925682>`)
 
-            message.channel.send(embed);
-	    message.react('')
+	    const chn = message.channel.id('869690294285778946')
+            message.chn.send(embed);
+	    message.react('1️⃣')
         } catch (e) {
             
 	const embed = new Discord.MessageEmbed()
