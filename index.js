@@ -266,10 +266,11 @@ bot.on('message', async message => {
             embed.setColor('B39554');
             embed.setTitle(`New Publish Request by ${message.author.tag}!`);
             embed.setDescription(`${content}`);
-	    embed.setFooter(`1️⃣ | Publish to <#862706588857925682>`)
+	    embed.setFooter(`1️⃣ | Publish to <#862706588857925682> (with ping)\n2️⃣ | Publish to <#862706588857925682> (without ping)`)
 
 	    const msg = await bot.channels.cache.get('869690294285778946').send(embed);
             await msg.react('1️⃣')
+	    await msg.react('2️⃣')
         } catch (e) {
             
 	const embed = new Discord.MessageEmbed()
@@ -291,6 +292,7 @@ bot.on('messageReactionAdd', async (reaction, user) => {
         const tdc = bot.guilds.cache.get('835519824414375997')
         if (user.id === bot.user.id) return
         if (reaction.message.author.id === bot.user.id) {
+	
             if (reaction._emoji.name === '1️⃣') {
                 const description = reaction.message.embeds[0].description
                 if (reaction) {
@@ -303,6 +305,18 @@ bot.on('messageReactionAdd', async (reaction, user) => {
 
                     bot.channels.cache.get('862706588857925682').send(embed);
 		    bot.channels.cache.get('862706588857925682').send('<@&869441959004090379>');
+		}
+		if (reaction._emoji.name === '2️⃣') {
+                const description = reaction.message.embeds[0].description
+                if (reaction) {
+		    await reaction.message.reactions.removeAll()
+                    await reaction.message.channel.send(`The content link \`\`(${description})\`\` has been published to <#862706588857925682>!`)
+		    const embed = new Discord.MessageEmbed()
+                    embed.setColor('B39554');
+                    embed.setTitle(`New YouTube Video!`);
+                    embed.setDescription(`${description}`);
+
+                    bot.channels.cache.get('862706588857925682').send(embed);
                 } else {
                     return
                 }
