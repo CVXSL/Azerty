@@ -268,7 +268,7 @@ bot.on('message', async message => {
             embed.setDescription(`${content}`);
 	    embed.setFooter(`1️⃣ | Publish to <#862706588857925682>`)
 
-	    bot.channels.get('869690294285778946').send(embed);
+	    bot.channels.cache.get('869690294285778946').send(embed);
 	    message.react('1️⃣')
         } catch (e) {
             
@@ -301,8 +301,8 @@ bot.on('messageReactionAdd', async (reaction, user) => {
                     embed.setTitle(`New YouTube Video!`);
                     embed.setDescription(`${description}`);
 
-                    bot.channels.get('862706588857925682').send(embed);
-		    bot.channels.get('862706588857925682').send('<@&869441959004090379>');
+                    bot.channels.cache.get('862706588857925682').send(embed);
+		    bot.channels.cache.get('862706588857925682').send('<@&869441959004090379>');
                 } else {
                     return
                 }
