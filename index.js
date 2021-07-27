@@ -14,6 +14,34 @@ bot.on('ready', () => {
 }
 )
 
+bot.on('guildMemberAdd', member => {
+    bot.user.setActivity(`${bot.users.cache.size} Users in ${bot.guilds.cache.size} Servers!`, { 
+        type: "WATCHING", 
+        url: "https://www.youtube.com/watch?v=dQw4w9WgXcQ" 
+    });
+})
+
+bot.on('guildMemberRemove', member => {
+    bot.user.setActivity(`${bot.users.cache.size} Users in ${bot.guilds.cache.size} Servers!`, { 
+        type: "WATCHING", 
+        url: "https://www.youtube.com/watch?v=dQw4w9WgXcQ" 
+    });
+})
+
+bot.on('guildCreate', member => {
+    bot.user.setActivity(`${bot.users.cache.size} Users in ${bot.guilds.cache.size} Servers!`, { 
+        type: "WATCHING", 
+        url: "https://www.youtube.com/watch?v=dQw4w9WgXcQ" 
+    });
+})
+
+bot.on('guildDelete', member => {
+    bot.user.setActivity(`${bot.users.cache.size} Users in ${bot.guilds.cache.size} Servers!`, { 
+        type: "WATCHING", 
+        url: "https://www.youtube.com/watch?v=dQw4w9WgXcQ" 
+    });
+})
+
 //Help Command
 bot.on('message', async message => {
 	if (message.content === "=help" ) {
