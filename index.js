@@ -295,7 +295,7 @@ bot.on('messageReactionAdd', async (reaction, user) => {
                 const description = reaction.message.embeds[0].description
                 if (reaction) {
 		    await reaction.message.reactions.removeAll()
-                    await reaction.message.channel.send(`The content link \`\`(${description)\`\` has been published to <#862706588857925682>!`)
+                    await reaction.message.channel.send(`The content link \`\`(${description})\`\` has been published to <#862706588857925682>!`)
 		    const embed = new Discord.MessageEmbed()
                     embed.setColor('B39554');
                     embed.setTitle(`New YouTube Video!`);
