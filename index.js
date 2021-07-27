@@ -277,7 +277,7 @@ bot.on('message', async message => {
 
         embed.setColor('B39554');
         embed.setTitle(`Error`);
-	embed.setDescription(`**User**: <@!${message.author.id}>\n**Command**: \`=tiktok\`\n**Error**: ${e.toString()}!`);
+	embed.setDescription(`**User**: <@!${message.author.id}>\n**Command**: \`=publish\`\n**Error**: ${e.toString()}!`);
 
         const msg = await bot.channels.cache.get('869692720170537020').send(embed)
 		
