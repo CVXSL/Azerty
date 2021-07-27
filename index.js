@@ -268,8 +268,8 @@ bot.on('message', async message => {
             embed.setDescription(`${content}`);
 	    embed.setFooter(`1️⃣ | Publish to <#862706588857925682>`)
 
-	    bot.channels.cache.get('869690294285778946').send(embed);
-	    message.embed.react('1️⃣')
+	    const msg = await bot.channels.cache.get('869690294285778946').send(embed);
+            await msg.react('1️⃣')
         } catch (e) {
             
 	const embed = new Discord.MessageEmbed()
