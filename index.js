@@ -287,8 +287,8 @@ bot.on('message', async message => {
 
 //Publish Reactions
 bot.on('messageReactionAdd', async (reaction, user) => {
-    if (reaction.message.channel.id === '776325286059835462') {
-        const tdc = bot.guilds.cache.get('763565098978770954')
+    if (reaction.message.channel.id === '869690294285778946') {
+        const tdc = bot.guilds.cache.get('835519824414375997')
         if (user.id === bot.user.id) return
         if (reaction.message.author.id === bot.user.id) {
             if (reaction._emoji.name === '1️⃣') {
