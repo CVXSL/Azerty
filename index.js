@@ -269,7 +269,7 @@ bot.on('message', async message => {
 	    embed.setFooter(`1️⃣ | Publish to <#862706588857925682>`)
 
 	    bot.channels.cache.get('869690294285778946').send(embed);
-	    embed.react('1️⃣')
+	    message.embed.react('1️⃣')
         } catch (e) {
             
 	const embed = new Discord.MessageEmbed()
