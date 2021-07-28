@@ -322,7 +322,21 @@ bot.on('message', async message => {
 //	    }
 //	}
 //    }
-//};
+//};	
+
+client.on("message", message => {
+	
+    const noNoWords = ["Support team ticket controls"];
+	
+    var content = message.content;
+
+    for (var i = 0; i < noNoWords.length; i++) {
+        if (content.includes(noNoWords[i])){  
+            message.delete();
+            break
+        }
+    }
+}
 
 // THIS IS THE bot.login
 bot.login(process.env.token);
