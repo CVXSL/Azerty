@@ -324,19 +324,16 @@ bot.on('message', async message => {
 //    }
 //};	
 
-bot.on("message", message => {
-	
-    const noNoWords = ["Support team ticket controls"];
-	
-    var content = message.content;
-
-    for (var i = 0; i < noNoWords.length; i++) {
-        if (content.includes(noNoWords[i])){  
-            message.delete();
-            break
-        }
+bot.on("message", async (message) => {
+    let blacklisted = ['Support team ticket controls'];
+    let foundInText = false;
+    for (var i in blacklisted) {
+      if (message.content.toLowerCase().includes(blacklisted[i].toLowerCase())) foundInText = true;
     }
-})
+    if (foundInText) {
+    message.delete();
+    }
+});
 
 // THIS IS THE bot.login
 bot.login(process.env.token);
