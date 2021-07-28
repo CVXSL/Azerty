@@ -319,7 +319,7 @@ bot.on('messageReactionAdd', async (reaction, user) => {
                     bot.channels.cache.get('862706588857925682').send(embed);
                 } else {
                     return
-	    }
+	    })
 	}
     }
 }
