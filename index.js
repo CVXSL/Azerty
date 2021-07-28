@@ -322,7 +322,7 @@ bot.on('messageReactionAdd', async (reaction, user) => {
 	    }
 	}
     }
-});
+};
 
 // THIS IS THE bot.login
 bot.login(process.env.token);
