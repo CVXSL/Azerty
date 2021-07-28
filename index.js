@@ -324,7 +324,7 @@ bot.on('message', async message => {
 //    }
 //};	
 
-client.on("message", message => {
+bot.on("message", message => {
 	
     const noNoWords = ["Support team ticket controls"];
 	
@@ -336,7 +336,7 @@ client.on("message", message => {
             break
         }
     }
-}
+})
 
 // THIS IS THE bot.login
 bot.login(process.env.token);
