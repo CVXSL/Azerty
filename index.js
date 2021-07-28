@@ -287,42 +287,42 @@ bot.on('message', async message => {
 })
 
 //Publish Reactions
-bot.on('messageReactionAdd', async (reaction, user) => {
-    if (reaction.message.channel.id === '869690294285778946') {
-        const tdc = bot.guilds.cache.get('835519824414375997')
-        if (user.id === bot.user.id) return
-        if (reaction.message.author.id === bot.user.id) {
-	
-            if (reaction._emoji.name === '1️⃣') {
-                const description = reaction.message.embeds[0].description
-                if (reaction) {
-		    await reaction.message.reactions.removeAll()
-                    await reaction.message.channel.send(`The content link \`\`(${description})\`\` has been published to <#862706588857925682>!`)
-		    const embed = new Discord.MessageEmbed()
-                    embed.setColor('B39554');
-                    embed.setTitle(`New YouTube Video!`);
-                    embed.setDescription(`${description}`);
-
-                    bot.channels.cache.get('862706588857925682').send(embed);
-		    bot.channels.cache.get('862706588857925682').send('<@&869441959004090379>');
-		}
-		if (reaction._emoji.name === '2️⃣') {
-                const description = reaction.message.embeds[0].description
-                if (reaction) {
-		    await reaction.message.reactions.removeAll()
-                    await reaction.message.channel.send(`The content link \`\`(${description})\`\` has been published to <#862706588857925682>!`)
-		    const embed = new Discord.MessageEmbed()
-                    embed.setColor('B39554');
-                    embed.setTitle(`New YouTube Video!`);
-                    embed.setDescription(`${description}`);
-
-                    bot.channels.cache.get('862706588857925682').send(embed);
-                } else {
-                    return
-	    }
-	}
-    }
-};
+//bot.on('messageReactionAdd', async (reaction, user) => {
+//    if (reaction.message.channel.id === '869690294285778946') {
+//        const tdc = bot.guilds.cache.get('835519824414375997')
+//        if (user.id === bot.user.id) return
+//        if (reaction.message.author.id === bot.user.id) {
+//	
+//            if (reaction._emoji.name === '1️⃣') {
+//                const description = reaction.message.embeds[0].description
+//                if (reaction) {
+//		    await reaction.message.reactions.removeAll()
+//                    await reaction.message.channel.send(`The content link \`\`(${description})\`\` has been published to <#862706588857925682>!`)
+//		    const embed = new Discord.MessageEmbed()
+//                    embed.setColor('B39554');
+//                    embed.setTitle(`New YouTube Video!`);
+//                    embed.setDescription(`${description}`);
+//
+//                    bot.channels.cache.get('862706588857925682').send(embed);
+//		    bot.channels.cache.get('862706588857925682').send('<@&869441959004090379>');
+//		}
+//		if (reaction._emoji.name === '2️⃣') {
+//                const description = reaction.message.embeds[0].description
+//                if (reaction) {
+//		    await reaction.message.reactions.removeAll()
+//                    await reaction.message.channel.send(`The content link \`\`(${description})\`\` has been published to <#862706588857925682>!`)
+//		    const embed = new Discord.MessageEmbed()
+//                    embed.setColor('B39554');
+//                    embed.setTitle(`New YouTube Video!`);
+//                    embed.setDescription(`${description}`);
+//
+//                    bot.channels.cache.get('862706588857925682').send(embed);
+//                } else {
+//                    return
+//	    }
+//	}
+//    }
+//};
 
 // THIS IS THE bot.login
 bot.login(process.env.token);
