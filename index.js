@@ -339,18 +339,302 @@ bot.on('messageReactionAdd', async (reaction, user) => {
     }
 });
 
+//table 1
 bot.on('voiceStateUpdate', (oldState, newState) => {
     const txtChannel = bot.channels.cache.get('870792506546217050'); //manually input your own channel
     const newChannelID = newState.channelID;
     const oldChannelID = oldState.channelID;
 
     if (oldChannelID === "870774745388417054") { //manually put the voice channel ID
-        txtChannel.send('role removed');
         let role = newState.guild.roles.cache.get("870790948794269758"); //added this
         newState.member.roles.remove(role).catch(console.error);
     } else if (newChannelID === "870774745388417054") {
-        txtChannel.send('role given');
         let role = oldState.guild.roles.cache.get("870790948794269758"); //change this somewhat
+        oldState.member.roles.add(role).catch(console.error); //adding a catch method is always good practice
+    }
+})
+
+//table 2
+bot.on('voiceStateUpdate', (oldState, newState) => {
+    const txtChannel = bot.channels.cache.get('870792506546217050'); //manually input your own channel
+    const newChannelID = newState.channelID;
+    const oldChannelID = oldState.channelID;
+
+    if (oldChannelID === "870774794570858616") { //manually put the voice channel ID
+        let role = newState.guild.roles.cache.get("870790976816422912"); //added this
+        newState.member.roles.remove(role).catch(console.error);
+    } else if (newChannelID === "870774794570858616") {
+        let role = oldState.guild.roles.cache.get("870790976816422912"); //change this somewhat
+        oldState.member.roles.add(role).catch(console.error); //adding a catch method is always good practice
+    }
+})
+
+//table 3
+bot.on('voiceStateUpdate', (oldState, newState) => {
+    const txtChannel = bot.channels.cache.get('870792506546217050'); //manually input your own channel
+    const newChannelID = newState.channelID;
+    const oldChannelID = oldState.channelID;
+
+    if (oldChannelID === "870775467559505924") { //manually put the voice channel ID
+        let role = newState.guild.roles.cache.get("870790996886167603"); //added this
+        newState.member.roles.remove(role).catch(console.error);
+    } else if (newChannelID === "870775467559505924") {
+        let role = oldState.guild.roles.cache.get("870790996886167603"); //change this somewhat
+        oldState.member.roles.add(role).catch(console.error); //adding a catch method is always good practice
+    }
+})
+
+//table 4
+bot.on('voiceStateUpdate', (oldState, newState) => {
+    const txtChannel = bot.channels.cache.get('870792506546217050'); //manually input your own channel
+    const newChannelID = newState.channelID;
+    const oldChannelID = oldState.channelID;
+
+    if (oldChannelID === "870775477118324776") { //manually put the voice channel ID
+        let role = newState.guild.roles.cache.get("870791010781913089"); //added this
+        newState.member.roles.remove(role).catch(console.error);
+    } else if (newChannelID === "870775477118324776") {
+        let role = oldState.guild.roles.cache.get("870791010781913089"); //change this somewhat
+        oldState.member.roles.add(role).catch(console.error); //adding a catch method is always good practice
+    }
+})
+
+//table 5
+bot.on('voiceStateUpdate', (oldState, newState) => {
+    const txtChannel = bot.channels.cache.get('870792506546217050'); //manually input your own channel
+    const newChannelID = newState.channelID;
+    const oldChannelID = oldState.channelID;
+
+    if (oldChannelID === "870775486912024668") { //manually put the voice channel ID
+        let role = newState.guild.roles.cache.get("870791022253338635"); //added this
+        newState.member.roles.remove(role).catch(console.error);
+    } else if (newChannelID === "870775486912024668") {
+        let role = oldState.guild.roles.cache.get("870791022253338635"); //change this somewhat
+        oldState.member.roles.add(role).catch(console.error); //adding a catch method is always good practice
+    }
+})
+
+//table 6
+bot.on('voiceStateUpdate', (oldState, newState) => {
+    const txtChannel = bot.channels.cache.get('870792506546217050'); //manually input your own channel
+    const newChannelID = newState.channelID;
+    const oldChannelID = oldState.channelID;
+
+    if (oldChannelID === "870775556315172954") { //manually put the voice channel ID
+        let role = newState.guild.roles.cache.get("870791032311275660"); //added this
+        newState.member.roles.remove(role).catch(console.error);
+    } else if (newChannelID === "870775556315172954") {
+        let role = oldState.guild.roles.cache.get("870791032311275660"); //change this somewhat
+        oldState.member.roles.add(role).catch(console.error); //adding a catch method is always good practice
+    }
+})
+
+//table 7
+bot.on('voiceStateUpdate', (oldState, newState) => {
+    const txtChannel = bot.channels.cache.get('870792506546217050'); //manually input your own channel
+    const newChannelID = newState.channelID;
+    const oldChannelID = oldState.channelID;
+
+    if (oldChannelID === "870775571448221697") { //manually put the voice channel ID
+        let role = newState.guild.roles.cache.get("870791041496793139"); //added this
+        newState.member.roles.remove(role).catch(console.error);
+    } else if (newChannelID === "870775571448221697") {
+        let role = oldState.guild.roles.cache.get("870791041496793139"); //change this somewhat
+        oldState.member.roles.add(role).catch(console.error); //adding a catch method is always good practice
+    }
+})
+
+//table 8
+bot.on('voiceStateUpdate', (oldState, newState) => {
+    const txtChannel = bot.channels.cache.get('870792506546217050'); //manually input your own channel
+    const newChannelID = newState.channelID;
+    const oldChannelID = oldState.channelID;
+
+    if (oldChannelID === "870775582005297192") { //manually put the voice channel ID
+        let role = newState.guild.roles.cache.get("870791052188057600"); //added this
+        newState.member.roles.remove(role).catch(console.error);
+    } else if (newChannelID === "870775582005297192") {
+        let role = oldState.guild.roles.cache.get("870791052188057600"); //change this somewhat
+        oldState.member.roles.add(role).catch(console.error); //adding a catch method is always good practice
+    }
+})
+
+//table 9
+bot.on('voiceStateUpdate', (oldState, newState) => {
+    const txtChannel = bot.channels.cache.get('870792506546217050'); //manually input your own channel
+    const newChannelID = newState.channelID;
+    const oldChannelID = oldState.channelID;
+
+    if (oldChannelID === "870775596802793492") { //manually put the voice channel ID
+        let role = newState.guild.roles.cache.get("870791062623518771"); //added this
+        newState.member.roles.remove(role).catch(console.error);
+    } else if (newChannelID === "870775596802793492") {
+        let role = oldState.guild.roles.cache.get("870791062623518771"); //change this somewhat
+        oldState.member.roles.add(role).catch(console.error); //adding a catch method is always good practice
+    }
+})
+
+//table 10
+bot.on('voiceStateUpdate', (oldState, newState) => {
+    const txtChannel = bot.channels.cache.get('870792506546217050'); //manually input your own channel
+    const newChannelID = newState.channelID;
+    const oldChannelID = oldState.channelID;
+
+    if (oldChannelID === "870775608081260674") { //manually put the voice channel ID
+        let role = newState.guild.roles.cache.get("870791073570623498"); //added this
+        newState.member.roles.remove(role).catch(console.error);
+    } else if (newChannelID === "870775608081260674") {
+        let role = oldState.guild.roles.cache.get("870791073570623498"); //change this somewhat
+        oldState.member.roles.add(role).catch(console.error); //adding a catch method is always good practice
+    }
+})
+
+//table 11
+bot.on('voiceStateUpdate', (oldState, newState) => {
+    const txtChannel = bot.channels.cache.get('870792506546217050'); //manually input your own channel
+    const newChannelID = newState.channelID;
+    const oldChannelID = oldState.channelID;
+
+    if (oldChannelID === "870779114498428940") { //manually put the voice channel ID
+        let role = newState.guild.roles.cache.get("870791086073847888"); //added this
+        newState.member.roles.remove(role).catch(console.error);
+    } else if (newChannelID === "870779114498428940") {
+        let role = oldState.guild.roles.cache.get("870791086073847888"); //change this somewhat
+        oldState.member.roles.add(role).catch(console.error); //adding a catch method is always good practice
+    }
+})
+
+//table 12
+bot.on('voiceStateUpdate', (oldState, newState) => {
+    const txtChannel = bot.channels.cache.get('870792506546217050'); //manually input your own channel
+    const newChannelID = newState.channelID;
+    const oldChannelID = oldState.channelID;
+
+    if (oldChannelID === "870779137806184520") { //manually put the voice channel ID
+        let role = newState.guild.roles.cache.get("870791098111516684"); //added this
+        newState.member.roles.remove(role).catch(console.error);
+    } else if (newChannelID === "870779137806184520") {
+        let role = oldState.guild.roles.cache.get("870791098111516684"); //change this somewhat
+        oldState.member.roles.add(role).catch(console.error); //adding a catch method is always good practice
+    }
+})
+
+//table 13
+bot.on('voiceStateUpdate', (oldState, newState) => {
+    const txtChannel = bot.channels.cache.get('870792506546217050'); //manually input your own channel
+    const newChannelID = newState.channelID;
+    const oldChannelID = oldState.channelID;
+
+    if (oldChannelID === "870779149097242694") { //manually put the voice channel ID
+        let role = newState.guild.roles.cache.get("870791111147388968"); //added this
+        newState.member.roles.remove(role).catch(console.error);
+    } else if (newChannelID === "870779149097242694") {
+        let role = oldState.guild.roles.cache.get("870791111147388968"); //change this somewhat
+        oldState.member.roles.add(role).catch(console.error); //adding a catch method is always good practice
+    }
+})
+
+//table 14
+bot.on('voiceStateUpdate', (oldState, newState) => {
+    const txtChannel = bot.channels.cache.get('870792506546217050'); //manually input your own channel
+    const newChannelID = newState.channelID;
+    const oldChannelID = oldState.channelID;
+
+    if (oldChannelID === "870779157284524063") { //manually put the voice channel ID
+        let role = newState.guild.roles.cache.get("870791127610056725"); //added this
+        newState.member.roles.remove(role).catch(console.error);
+    } else if (newChannelID === "870779157284524063") {
+        let role = oldState.guild.roles.cache.get("870791127610056725"); //change this somewhat
+        oldState.member.roles.add(role).catch(console.error); //adding a catch method is always good practice
+    }
+})
+
+//table 15
+bot.on('voiceStateUpdate', (oldState, newState) => {
+    const txtChannel = bot.channels.cache.get('870792506546217050'); //manually input your own channel
+    const newChannelID = newState.channelID;
+    const oldChannelID = oldState.channelID;
+
+    if (oldChannelID === "870779165664747631") { //manually put the voice channel ID
+        let role = newState.guild.roles.cache.get("870791138943066122"); //added this
+        newState.member.roles.remove(role).catch(console.error);
+    } else if (newChannelID === "870779165664747631") {
+        let role = oldState.guild.roles.cache.get("870791138943066122"); //change this somewhat
+        oldState.member.roles.add(role).catch(console.error); //adding a catch method is always good practice
+    }
+})
+
+//table 16
+bot.on('voiceStateUpdate', (oldState, newState) => {
+    const txtChannel = bot.channels.cache.get('870792506546217050'); //manually input your own channel
+    const newChannelID = newState.channelID;
+    const oldChannelID = oldState.channelID;
+
+    if (oldChannelID === "870779177849208853") { //manually put the voice channel ID
+        let role = newState.guild.roles.cache.get("870791149462368256"); //added this
+        newState.member.roles.remove(role).catch(console.error);
+    } else if (newChannelID === "870779177849208853") {
+        let role = oldState.guild.roles.cache.get("870791149462368256"); //change this somewhat
+        oldState.member.roles.add(role).catch(console.error); //adding a catch method is always good practice
+    }
+})
+
+//table 17
+bot.on('voiceStateUpdate', (oldState, newState) => {
+    const txtChannel = bot.channels.cache.get('870792506546217050'); //manually input your own channel
+    const newChannelID = newState.channelID;
+    const oldChannelID = oldState.channelID;
+
+    if (oldChannelID === "870779216340344922") { //manually put the voice channel ID
+        let role = newState.guild.roles.cache.get("870791162536005642"); //added this
+        newState.member.roles.remove(role).catch(console.error);
+    } else if (newChannelID === "870779216340344922") {
+        let role = oldState.guild.roles.cache.get("870791162536005642"); //change this somewhat
+        oldState.member.roles.add(role).catch(console.error); //adding a catch method is always good practice
+    }
+})
+
+//table 18
+bot.on('voiceStateUpdate', (oldState, newState) => {
+    const txtChannel = bot.channels.cache.get('870792506546217050'); //manually input your own channel
+    const newChannelID = newState.channelID;
+    const oldChannelID = oldState.channelID;
+
+    if (oldChannelID === "870779225735585822") { //manually put the voice channel ID
+        let role = newState.guild.roles.cache.get("870791185994747914"); //added this
+        newState.member.roles.remove(role).catch(console.error);
+    } else if (newChannelID === "870779225735585822") {
+        let role = oldState.guild.roles.cache.get("870791185994747914"); //change this somewhat
+        oldState.member.roles.add(role).catch(console.error); //adding a catch method is always good practice
+    }
+})
+
+//table 19
+bot.on('voiceStateUpdate', (oldState, newState) => {
+    const txtChannel = bot.channels.cache.get('870792506546217050'); //manually input your own channel
+    const newChannelID = newState.channelID;
+    const oldChannelID = oldState.channelID;
+
+    if (oldChannelID === "870779233876705310") { //manually put the voice channel ID
+        let role = newState.guild.roles.cache.get("870791199366189066"); //added this
+        newState.member.roles.remove(role).catch(console.error);
+    } else if (newChannelID === "870779233876705310") {
+        let role = oldState.guild.roles.cache.get("870791199366189066"); //change this somewhat
+        oldState.member.roles.add(role).catch(console.error); //adding a catch method is always good practice
+    }
+})
+
+//table 20
+bot.on('voiceStateUpdate', (oldState, newState) => {
+    const txtChannel = bot.channels.cache.get('870792506546217050'); //manually input your own channel
+    const newChannelID = newState.channelID;
+    const oldChannelID = oldState.channelID;
+
+    if (oldChannelID === "870779242043031573") { //manually put the voice channel ID
+        let role = newState.guild.roles.cache.get("870791212771213352"); //added this
+        newState.member.roles.remove(role).catch(console.error);
+    } else if (newChannelID === "870779242043031573") {
+        let role = oldState.guild.roles.cache.get("870791212771213352"); //change this somewhat
         oldState.member.roles.add(role).catch(console.error); //adding a catch method is always good practice
     }
 })
