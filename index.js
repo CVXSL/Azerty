@@ -307,10 +307,11 @@ bot.on('messageReactionAdd', async (reaction, user) => {
 		    bot.channels.cache.get('862706588857925682').send('<@&869441959004090379>');
                 } else {
                     return
+		}
 	    }
 	}
     }
-};	
+});	
 
 //Publish 2 Reactions
 bot.on('messageReactionAdd', async (reaction, user) => {
@@ -332,10 +333,11 @@ bot.on('messageReactionAdd', async (reaction, user) => {
                     bot.channels.cache.get('862706588857925682').send(embed);
                 } else {
                     return
+		}
 	    }
 	}
     }
-};	
+});	
 
 // THIS IS THE bot.login
 bot.login(process.env.token);
