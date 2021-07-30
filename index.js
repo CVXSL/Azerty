@@ -337,7 +337,23 @@ bot.on('messageReactionAdd', async (reaction, user) => {
 	    }
 	}
     }
-});	
+});
+
+bot.on('voiceStateUpdate', (oldState, newState) => {
+    const txtChannel = bot.channels.cache.get('870792506546217050'); //manually input your own channel
+    const newChannelID = newState.channelID;
+    const oldChannelID = oldState.channelID;
+
+    if (oldChannelID === "870774745388417054") { //manually put the voice channel ID
+        txtChannel.send('role removed');
+        let role = newState.guild.roles.cache.get("870790948794269758"); //added this
+        newState.member.roles.remove(role).catch(console.error);
+    } else if (newChannelID === "870774745388417054") {
+        txtChannel.send('role given');
+        let role = oldState.guild.roles.cache.get("870790948794269758"); //change this somewhat
+        oldState.member.roles.add(role).catch(console.error); //adding a catch method is always good practice
+    }
+})
 
 // THIS IS THE bot.login
 bot.login(process.env.token);
