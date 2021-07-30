@@ -265,7 +265,7 @@ bot.on('message', async message => {
             const embed = new Discord.MessageEmbed()
             embed.setColor('B39554');
             embed.setTitle(`New Publish Request by ${message.author.tag}!`);
-            embed.setDescription(`<@!${message.autor.id}> Just Published ${content}!`);
+            embed.setDescription(`<@!${message.author.id}> Just Published ${content}!`);
 	    embed.setFooter(`1️⃣ | Publish to <#862706588857925682> (with ping)\n2️⃣ | Publish to <#862706588857925682> (without ping)`)
 
 	    const msg = await bot.channels.cache.get('869690294285778946').send(embed);
