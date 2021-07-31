@@ -256,7 +256,7 @@ bot.on('message', async message => {
     if (command === "publish") {
     message.delete().catch(O_o => { });
         if (message.author.bot) return;
-        if (!message.member.hasPermission('MANAGE_MESSAGES')) return message.channel.send(`Only staff members can use this command.`);
+        if (!message.member.hasPermission('SEND_MESSAGES')) return message.channel.send(`You don't have access to this command!`);
         if (message.content.indexOf(prefix) !== 0) return;
         try {
 
