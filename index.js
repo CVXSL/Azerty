@@ -49,7 +49,22 @@ bot.on('message', async message => {
 		.setColor('B39554')
 		.setTitle('Commands')
 		.setAuthor('Hive Adventures', 'https://media.discordapp.net/attachments/869402961070141461/869403013679308800/Hice_Adventures.png?width=401&height=401')
-		.setDescription('```Hello and thanks for using Hive Adventures, below is a list of commands that you can use in your server!```\n\nServer Info | `=server`\nThe Hive | `=hive`')
+		.setDescription('```Hello and thanks for using Hive Adventures, below is a list of commands that you can use in your server!```\n\nServer Info | `=server`\nThe Hive | `=hive`\nBot Settings | `=settings`')
+		.setThumbnail('https://media.discordapp.net/attachments/869402961070141461/869403013679308800/Hice_Adventures.png?width=401&height=401')
+		.setTimestamp()
+			
+		message.channel.send(exampleEmbed);
+	}	
+	
+})
+
+bot.on('message', async message => {
+	if (message.content === "=settings" ) {
+	const exampleEmbed = new Discord.MessageEmbed()
+		.setColor('B39554')
+		.setTitle('Bot Settings')
+		.setAuthor('Hive Adventures', 'https://media.discordapp.net/attachments/869402961070141461/869403013679308800/Hice_Adventures.png?width=401&height=401')
+		.setDescription('Bot setting can be found [`here`](https://github.com/CVXSL/hive-adventures#bot-settings)')
 		.setThumbnail('https://media.discordapp.net/attachments/869402961070141461/869403013679308800/Hice_Adventures.png?width=401&height=401')
 		.setTimestamp()
 			
@@ -192,7 +207,7 @@ bot.on('message', async message => {
 		.setColor('B39554')
 		.setTitle('Events')
 		.setAuthor('Hive Adventures', 'https://media.discordapp.net/attachments/869402961070141461/869403013679308800/Hice_Adventures.png?width=401&height=401')
-		.setDescription('**Current Event:**\n`NULL`\n\n**Previous Events:**\nNew Years Event | `=hive event 2021`\nSonic the Hedgehog | `=hive event sonic`')
+		.setDescription('**Current Event:**\n`None Active`\n\n**Previous Events:**\nNew Years Event | `=hive event 2021`\nSonic the Hedgehog | `=hive event sonic`')
 		.setThumbnail('https://media.discordapp.net/attachments/869402961070141461/869403013679308800/Hice_Adventures.png?width=401&height=401')
 		.setTimestamp()
 			
