@@ -64,7 +64,7 @@ bot.on('message', async message => {
 		.setColor('B39554')
 		.setTitle('Bot Settings')
 		.setAuthor('Hive Adventures', 'https://media.discordapp.net/attachments/869402961070141461/869403013679308800/Hice_Adventures.png?width=401&height=401')
-		.setDescription('Bot setting can be found [`here`](https://github.com/CVXSL/hive-adventures#bot-settings)')
+		.setDescription('Bot setting can be found [`here`](https://github.com/CVXSL/hive-adventures/blob/master/README.md#bot-settings)')
 		.setThumbnail('https://media.discordapp.net/attachments/869402961070141461/869403013679308800/Hice_Adventures.png?width=401&height=401')
 		.setTimestamp()
 			
