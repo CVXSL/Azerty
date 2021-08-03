@@ -1,4 +1,4 @@
-# I've been banned / muted
+# [The Hive](https://hive.growtopics.xyz/hive/) > [Rules](https://hive.growtopics.xyz/hive/rules/) > [Bans](https://hive.growtopics.xyz/hive/rules/bans/)
 
 ### Table of contents
 - 😦 Why have I been punished?
