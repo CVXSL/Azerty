@@ -1,6 +1,4 @@
-# The Hive
-
-![image](https://playhive.com/content/images/size/w100/2020/12/discord-final.png)
+# ![image](https://playhive.com/content/images/size/w100/2020/12/discord-final.png) The Hive
 
 ### [Rules and Punishments](https://hive.growtopics.xyz/hive/rules/)
 
