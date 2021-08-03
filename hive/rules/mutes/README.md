@@ -30,21 +30,27 @@ Please note that **The Hive has no control over this filter or Communication Sus
 ### Communication Suspensions: Frequently Asked Questions
 
 **🤔 What is a Communication Suspension?**
+
 When you are suspended, your messages will appear to be sent but no one else will see them. If you find that other players are not responding to you, consider that they may not be able to see your messages.
 
 **😕 Why am I suspended?**
+
 Most automated suspensions are due to extreme language, and (over)sharing private information. Remember, Mojang's filter operates across all Featured Servers and Realms, so you may have been suspended for something you did not say on the Hive.
 
 **⌚ How long will my suspension last?**
+
 The vast majority of these suspensions are temporary, and will be automatically removed when your chat behavior improves. However, certain trigger words (extreme racism, for example) will permanently suspend you. Repeat offenders may also receive longer or permanent suspensions.
 
 **🤷🏽‍♂️ How do I get rid of my suspension?**
+
 The most effective way to do this is by improving your chat behavior. Making sure your behavior is more in-line with unpunished users will often help lift your suspension. Please note that this is not a guaranteed solution, especially if you have been permanently suspended.
 
 **🐝 Can The Hive help me?**
+
 The Hive is not responsible for running the chat filter, and as such cannot make any exceptions or lift any suspensions. Hive Support is **NOT** able to assist you with these suspensions, as we have no control over them or Mojang's filter. Xbox support will **NOT** unsuspend you.
 
 **🙊 Why can I talk on another server, but not The Hive?**
+
 This does **not** mean you are not suspended. Your chat reputation is bound to your Xbox account and follows you between Featured Servers and Realms. If you are playing on a private server, or a server that is **not** featured, your suspension will not be active.
 
 ### Warning About 'Unsuspension' Methods
