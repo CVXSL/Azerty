@@ -90,7 +90,7 @@ All skins (including Character Creator skins, and skins purchased on the Marketp
 
 Any attempts to use so-called "custom 4D Skins", which are skins with custom geometry, will be blocked, and your skin will be replaced with 'Hive Steve'. You can learn more about this policy [here] (coming soon!).
 
-Persona (Character Creator) skins are currently disabled on The Hive, you can read more about this [here] (coming soon!).
+Persona (Character Creator) skins are currently disabled on The Hive, you can read more about this [here](https://hive.growtopics.xyz/hive/rules/skins/).
 
 ### 🔧 Custom Servers
 
