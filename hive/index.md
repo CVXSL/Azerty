@@ -1,6 +1,6 @@
 # The Hive
 
-### [Rules and Punishments](https://hive.growtopics.xyz/hive/rules/)
+### Rules and Punishments [[click me]](https://hive.growtopics.xyz/hive/rules/)
 
 - Why am I muted / why can nobody see what I type?
 - What are the rules?
