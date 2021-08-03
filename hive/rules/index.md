@@ -12,5 +12,5 @@ Information about in-game and Discord punishments, and how to appeal.
 ### Custom Skin Support [[click me]](https://hive.growtopics.xyz/hive/rules/skins/)
 Information about the recent changes to custom skin support.
 
-### Allowed and denied modifications [coming soon]
+### Allowed and denied modifications [[click me]](https://hive.growtopics.xyz/hive/rules/modifications/)
 Information about which modifications are allowed on The Hive.
