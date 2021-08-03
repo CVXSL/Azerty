@@ -1,6 +1,6 @@
 # The Hive
 
-![image](https://support.playhive.com/content/images/2019/12/logo-486.png)
+![image](https://playhive.com/content/images/size/w100/2020/12/discord-final.png)
 
 ### [Rules and Punishments](https://hive.growtopics.xyz/hive/rules/)
 
