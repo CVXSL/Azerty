@@ -1,5 +1,7 @@
 # The Hive
 
+![image](https://support.playhive.com/content/images/2019/12/logo-486.png)
+
 ### [Rules and Punishments](https://hive.growtopics.xyz/hive/rules/)
 
 - Why am I muted / why can nobody see what I type?
