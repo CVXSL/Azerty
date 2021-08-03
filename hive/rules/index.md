@@ -1,6 +1,6 @@
 # The Hive > Rules and Punishments
 
-### Why am I muted / why can nobody see what I type? [click me](https://hive.growtopics.xyz/hive/rules/mutes/)
+### Why am I muted / why can nobody see what I type? [[click me]](https://hive.growtopics.xyz/hive/rules/mutes/)
 Information about different types of mutes.
 
 ### What are the rules? [coming soon]
