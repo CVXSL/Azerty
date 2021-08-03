@@ -9,7 +9,7 @@ Full overview of The Hive's rules.
 ### I've been banned / muted [[click me]](https://hive.growtopics.xyz/hive/rules/bans/)
 Information about in-game and Discord punishments, and how to appeal.
 
-### Custom Skin Support [coming soon]
+### Custom Skin Support [[click me]](https://hive.growtopics.xyz/hive/rules/skins/)
 Information about the recent changes to custom skin support.
 
 ### Allowed and denied modifications [coming soon]
