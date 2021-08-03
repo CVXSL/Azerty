@@ -13,3 +13,5 @@
 ### Server and Discord
 
 ###
+
+![image](https://mcstore.io/images/coin.png)
