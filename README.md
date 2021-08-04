@@ -3,12 +3,14 @@ Hive Adventures is a discord server centered around Minecraft Featured servers, 
 
 ## HA Docs
 
-*Coming Soon!*
+**The Hive:**
+
+- Rules and Punishments [[click me]](https://hive.growtopics.xyz/hive/rules/)
 
 ## Coming Soon
 **The Hive:**
 
-- [ ] Rules and Punishments
+- [x] Rules and Punishments
 - [ ] Technical
 - [ ] Common Problems
 - [ ] Unlocks
