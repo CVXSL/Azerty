@@ -1,6 +1,6 @@
 # [The Hive](https://hive.growtopics.xyz/hive/) > [Rules](https://hive.growtopics.xyz/hive/rules/) > [Bans](https://hive.growtopics.xyz/hive/rules/bans/)
 
-#### [Home Page](https://hive.growtopics.xyz/)
+#### [Home Page](https://hive.growtopics.xyz/) | [Back](https://hive.growtopics.xyz/hive/rules/)
 
 ### Table of contents
 - 😦 Why have I been punished?
