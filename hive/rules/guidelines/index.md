@@ -1,5 +1,7 @@
 # [The Hive](https://hive.growtopics.xyz/hive/) > [Rules](https://hive.growtopics.xyz/hive/rules/) > [Guidelines](https://hive.growtopics.xyz/hive/rules/guidelines/)
 
+#### [Home Page](https://hive.growtopics.xyz/)
+
 ### Table of Contents
 
 - What are the rules?
