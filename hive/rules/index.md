@@ -1,5 +1,7 @@
 # [The Hive](https://hive.growtopics.xyz/hive/) > [Rules and Punishments](https://hive.growtopics.xyz/hive/rules/)
 
+#### [Home Page](https://hive.growtopics.xyz/)
+
 ### Why am I muted / why can nobody see what I type? [[click me]](https://hive.growtopics.xyz/hive/rules/mutes/)
 Information about different types of mutes.
 
