@@ -1,5 +1,7 @@
 # [The Hive](https://hive.growtopics.xyz/hive/) > [Rules](https://hive.growtopics.xyz/hive/rules/) > [Mutes](https://hive.growtopics.xyz/hive/rules/mutes/)
 
+#### [Home Page](https://hive.growtopics.xyz/)
+
 ### Table of contents
 - Why am I muted / why can nobody see what I type?
   - Server Mutes
