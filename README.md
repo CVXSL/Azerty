@@ -1,37 +1,12 @@
-# Hive Adventures
-Hive Adventures is a discord server centered around Minecraft Featured servers, but mostly The Hive. The idea for our bot is to spread the information to a wider audience!
+# Azerty Documentation
+Azerty Development is a development group for game information discord bots. This repository holds all documentation and bot code for all of our bots.
 
-## HA Docs
+## Azerty Utilities
+Azerty Utilities is our first official discord bot that is meant for utility and some moderator commands. This bot is mostly used to manage our [discord server](https://discord.gg/FQ3WeJgCTN), but we decided to make it public so people can use some of our tools.
 
-**The Hive:**
+#### Invite Bot *(coming soon!)*
 
-- Rules and Punishments [[click me]](https://hive.growtopics.xyz/hive/rules/)
+## Azerty MC
+Azerty MC is our second official discord bot that is meant for the Minecraft Bedrock, Java and Legacy versions of the game!
 
-## Coming Soon
-**The Hive:**
-
-- [x] Rules and Punishments
-- [ ] Technical
-- [ ] Common Problems
-- [ ] Unlocks
-- [ ] Other
-- [ ] Server and Discord
-- [ ] Staff and Ranks
-- [ ] Custom Servers
-- [ ] The Hive Store
-- [ ] Events and Updates
-
-**Other Servers:**
-
-- [ ] CubeCraft
-- [ ] Galaxite
-- [ ] Mineville
-- [ ] LifeBoat
-- [ ] Pixel Paradise
-- [ ] Mineplex
-
-**HA Partner Program:**
-
-- [ ] Content Creators
-- [ ] Server Partners
-- [ ] Sponsors
+#### Invite Bot *(coming soon!)*
