@@ -11,10 +11,6 @@ bot.on('ready', () => {
 //        url: "https://www.youtube.com/watch?v=dQw4w9WgXcQ"
     });
 
-//    bot.user.setPresence({
-//        status: 'invisible'
-//    })
-
     //Remember Chat History
     const tdc = bot.guilds.cache.get('835519824414375997');
     tdc.channels.cache.filter(channel => channel.type != "voice" && channel.type != "category").forEach(channel => {
@@ -22,6 +18,22 @@ bot.on('ready', () => {
 
     })
 });
+
+// bot.on('ready', () => {
+//     console.log(`Logged in as ${bot.user.tag} c:`);
+//     bot.user.setActivity(`🟡 | Bot disabled for construction!`, {
+// //        type: "WATCHING",
+// 	status: "idle"
+// //        url: "https://www.youtube.com/watch?v=dQw4w9WgXcQ"
+//     });
+
+//     //Remember Chat History
+//     const tdc = bot.guilds.cache.get('835519824414375997');
+//     tdc.channels.cache.filter(channel => channel.type != "voice" && channel.type != "category").forEach(channel => {
+//         channel.messages.fetch();
+
+//     })
+// });
 
 bot.on('guildMemberAdd', member => {
     bot.user.setActivity(`${bot.users.cache.size} Users in ${bot.guilds.cache.size} Servers!`, { 
