@@ -8,7 +8,7 @@ const prefix = "="
 // THIS IS THE STATUS
 bot.on('ready', () => {
     console.log(`Logged in as ${bot.user.tag} c:`);
-    bot.user.setActivity(`Over ${bot.users.cache.size} Users in oui oui oui server!`, {
+    bot.user.setActivity(`Over ${bot.users.cache.size} Users!`, {
         type: "WATCHING",
 //        url: "https://www.youtube.com/watch?v=dQw4w9WgXcQ"
     });
