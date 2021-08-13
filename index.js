@@ -116,7 +116,7 @@ bot.on('message', async message => {
 // info 1 command
 bot.on('message', async message => {
     if (message.channel.type == "dm") return;
-    if (message.content === "=info 0") {
+    if (message.content === "b.info 0") {
         const embed = new Discord.MessageEmbed()
             .setColor('85f16f')
             .setTitle('Bouncy Bottles #0')
@@ -130,7 +130,7 @@ bot.on('message', async message => {
 // info 1 command
 bot.on('message', async message => {
     if (message.channel.type == "dm") return;
-    if (message.content === "=info 1") {
+    if (message.content === "b.info 1") {
         const embed = new Discord.MessageEmbed()
             .setColor('85f16f')
             .setTitle('Bouncy Bottles #1')
