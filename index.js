@@ -71,7 +71,7 @@ bot.on('message', async message => {
 	const exampleEmbed = new Discord.MessageEmbed()
 		.setColor('85f16f')
 		.setTitle('Commands')
-		.setDescription('Bottle Info | `!info <Bottle ID>`')
+		.setDescription('Bottle Info | `b.info <Mint ID>`\n')
 		.setThumbnail('https://images-ext-2.discordapp.net/external/Mb6OlbqrR4hOAZ44Dy0xA9fgVUlZRbc6KhBoI_jhG8c/https/media.discordapp.net/attachments/857988568454004736/875803808930857031/BBot.gif')
 		.setTimestamp()
 		.setFooter('Powered by Azerty Development', 'https://media.discordapp.net/attachments/875462492124508170/875462598609485874/Azerty_Development_-_server___utility.jpg?width=454&height=454')
@@ -82,19 +82,64 @@ bot.on('message', async message => {
 })
 
 //rule command
-bot.on('message', async message => {
-	if (message.content === "b.rules" ) {
-	const exampleEmbed = new Discord.MessageEmbed()
-		.setColor('85f16f')
-		.setTitle('Rules')
-		.setDescription('1. Respect fellow members and staff\n2. No sus links\n3. No racist, homophobic etc behaviour\n4. No spamming (I\'m watching you, trolls)\n5. Have fun!\n\nVerify in <#875449997582270475>')
-		.setThumbnail('https://images-ext-2.discordapp.net/external/Mb6OlbqrR4hOAZ44Dy0xA9fgVUlZRbc6KhBoI_jhG8c/https/media.discordapp.net/attachments/857988568454004736/875803808930857031/BBot.gif')
-		.setFooter('Powered by Azerty Development', 'https://media.discordapp.net/attachments/875462492124508170/875462598609485874/Azerty_Development_-_server___utility.jpg?width=454&height=454')
+// bot.on('message', async message => {
+// 	if (message.content === "b.rules" ) {
+// 	const exampleEmbed = new Discord.MessageEmbed()
+// 		.setColor('85f16f')
+// 		.setTitle('Rules')
+// 		.setDescription('1. Respect fellow members and staff\n2. No sus links\n3. No racist, homophobic etc behaviour\n4. No spamming (I\'m watching you, trolls)\n5. Have fun!\n\nVerify in <#875449997582270475>')
+// 		.setThumbnail('https://images-ext-2.discordapp.net/external/Mb6OlbqrR4hOAZ44Dy0xA9fgVUlZRbc6KhBoI_jhG8c/https/media.discordapp.net/attachments/857988568454004736/875803808930857031/BBot.gif')
+// 		.setFooter('Powered by Azerty Development', 'https://media.discordapp.net/attachments/875462492124508170/875462598609485874/Azerty_Development_-_server___utility.jpg?width=454&height=454')
 			
-		message.channel.send(exampleEmbed);
-	}	
+// 		message.channel.send(exampleEmbed);
+// 	}	
 	
-})
+// })
+
+// BOTTLE INFO
+
+// info command
+bot.on('message', async message => {
+    if (message.content === "b.info 0") return;
+    if (message.content === "b.info 1") return;
+    if (message.channel.type == "dm") return;
+    if (message.content.startsWith("b.info")) {
+	const embed = new Discord.MessageEmbed()
+            .setColor('85f16f')
+            .setTitle('Bottle Info')
+            .setDescription('Invalid Mint ID!')
+	    .setFooter('Powered by Azerty Development', 'https://media.discordapp.net/attachments/875462492124508170/875462598609485874/Azerty_Development_-_server___utility.jpg?width=454&height=454')
+	message.channel.send(embed);
+	}
+    })
+
+// info 1 command
+bot.on('message', async message => {
+    if (message.channel.type == "dm") return;
+    if (message.content === "=info 0") {
+        const embed = new Discord.MessageEmbed()
+            .setColor('85f16f')
+            .setTitle('Bouncy Bottles #0')
+            .setDescription('**Description**\n\nCreated by [Alacris](https://opensea.io/Alacris)\n\nCurrently Owned by [Alacrish](https://opensea.io/Alacris)\nAnd so, the epic #0 strides with a swagger into the collection!\n\n**Properties**\n\nClass: `Meme`\nClassic Bottle: `#0`\n\n**Details**\n\nContract Address: `[0x495f947276749ce646f68ac8c248420045cb7b5e](https://etherscan.io/address/0x495f947276749ce646f68ac8c248420045cb7b5e)`\nToken ID: `70343040351270832787078101729273736097824728322877320639483332714829719797761`\nBlockchain: `Ethereum`\nMetadata: `Editable`')
+	    .setThumbnail('https://lh3.googleusercontent.com/iQ1GZN45IaIQocf4AGwt29ULxpSJcG8XqMjv7Dj1aw8ULKRuUaArEAc-ATnriY3Z7FHT2DLLKi_bb_6hn8qyyaCzCB-zjoxRIsmGp0U=w600')
+	    .setFooter('Powered by Azerty Development', 'https://media.discordapp.net/attachments/875462492124508170/875462598609485874/Azerty_Development_-_server___utility.jpg?width=454&height=454')
+	message.channel.send(embed);
+	}
+    })
+
+// info 1 command
+bot.on('message', async message => {
+    if (message.channel.type == "dm") return;
+    if (message.content === "=info 1") {
+        const embed = new Discord.MessageEmbed()
+            .setColor('85f16f')
+            .setTitle('Bouncy Bottles #1')
+            .setDescription('**Description**\n\nCreated by [Alacris](https://opensea.io/Alacris)\n\nCurrently Owned by [Alacrish](https://opensea.io/Alacris)\nFollowing the swag, comes the goofy delight! Jester the 1st!\n\n**Properties**\n\nClass: `Fantasy`\nClassic Bottle: `#1`\n\n**Details**\n\nContract Address: `[0x495f947276749ce646f68ac8c248420045cb7b5e](https://etherscan.io/address/0x495f947276749ce646f68ac8c248420045cb7b5e)`\nToken ID: `70343040351270832787078101729273736097824728322877320639483332715929231425537`\nBlockchain: `Ethereum`\nMetadata: `Editable`')
+	    .setThumbnail('https://lh3.googleusercontent.com/rW5kA-odZyG9IXOuhwZr51MHT7haqmXD3Iz5XZHphKilwnFtP2-lu4Ot9eZoDY8CkPYuIGokGoU5qwUESTF6Wn1xmZmo5gouTPIT8g=w600')
+	    .setFooter('Powered by Azerty Development', 'https://media.discordapp.net/attachments/875462492124508170/875462598609485874/Azerty_Development_-_server___utility.jpg?width=454&height=454')
+	message.channel.send(embed);
+	}
+    })
 
 // THIS IS THE bot.login
 bot.login(process.env.token);
