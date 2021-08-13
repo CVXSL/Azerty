@@ -14,7 +14,7 @@ bot.on('ready', () => {
     });
 
     //Remember Chat History
-    const tdc = bot.guilds.cache.get('835519824414375997');
+    const tdc = bot.guilds.cache.get('875339060028276787');
     tdc.channels.cache.filter(channel => channel.type != "voice" && channel.type != "category").forEach(channel => {
         channel.messages.fetch();
 
@@ -30,7 +30,7 @@ bot.on('ready', () => {
 //     });
 
 //     //Remember Chat History
-//     const tdc = bot.guilds.cache.get('835519824414375997');
+//     const tdc = bot.guilds.cache.get('875339060028276787');
 //     tdc.channels.cache.filter(channel => channel.type != "voice" && channel.type != "category").forEach(channel => {
 //         channel.messages.fetch();
 
