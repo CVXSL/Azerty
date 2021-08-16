@@ -72,7 +72,7 @@ bot.on('message', async message => {
 		.setColor('85f16f')
 		.setTitle('Commands')
 		.setDescription('Bottle Info | `b.info <Mint ID>`\n')
-		.setThumbnail('https://images-ext-2.discordapp.net/external/Mb6OlbqrR4hOAZ44Dy0xA9fgVUlZRbc6KhBoI_jhG8c/https/media.discordapp.net/attachments/857988568454004736/875803808930857031/BBot.gif')
+		.setThumbnail('https://media.discordapp.net/attachments/876543603713925141/876818619080769536/BBot_New.gif')
 		.setTimestamp()
 		.setFooter('Powered by Azerty Development', 'https://media.discordapp.net/attachments/875462492124508170/875462598609485874/Azerty_Development_-_server___utility.jpg?width=454&height=454')
 			
@@ -88,7 +88,7 @@ bot.on('message', async message => {
 // 		.setColor('85f16f')
 // 		.setTitle('Rules')
 // 		.setDescription('1. Respect fellow members and staff\n2. No sus links\n3. No racist, homophobic etc behaviour\n4. No spamming (I\'m watching you, trolls)\n5. Have fun!\n\nVerify in <#875449997582270475>')
-// 		.setThumbnail('https://images-ext-2.discordapp.net/external/Mb6OlbqrR4hOAZ44Dy0xA9fgVUlZRbc6KhBoI_jhG8c/https/media.discordapp.net/attachments/857988568454004736/875803808930857031/BBot.gif')
+// 		.setThumbnail('https://media.discordapp.net/attachments/876543603713925141/876818619080769536/BBot_New.gif')
 // 		.setFooter('Powered by Azerty Development', 'https://media.discordapp.net/attachments/875462492124508170/875462598609485874/Azerty_Development_-_server___utility.jpg?width=454&height=454')
 			
 // 		message.channel.send(exampleEmbed);
