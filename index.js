@@ -136,9 +136,9 @@ bot.on('message', async message => {
     if (message.content === "b.info 0") {
         const embed = new Discord.MessageEmbed()
             .setColor('85f16f')
-            .setTitle('Bouncy Bottles #0')
+            .setTitle('Bottle #0')
             .setDescription('[ [View on OpenSea](https://opensea.io/assets/0x495f947276749ce646f68ac8c248420045cb7b5e/70343040351270832787078101729273736097824728322877320639483332714829719797761/) ]\n\n**Description**\n\nCreated by [Alacris](https://opensea.io/Alacris)\nCurrently owned by [Alacris](https://opensea.io/Alacris)\n\n*"And so, the epic #0 strides with a swagger into the collection!"*\n\n**Properties**\n\nClass: `Meme`\nClassic Bottle: `#0`\n\n**Details**\n\nContract Address: [0x495f947276749ce646f68ac8c248420045cb7b5e](https://etherscan.io/address/0x495f947276749ce646f68ac8c248420045cb7b5e)\nToken ID: `70343040351270832787078101729273736097824728322877320639483332714829719797761`\nBlockchain: `Ethereum`\nMetadata: `Editable`')
-	    .setThumbnail('https://media.discordapp.net/attachments/875785778339405917/875831200885907507/BB0.gif?width=1000&height=1000')
+	    .setThumbnail('https://media.discordapp.net/attachments/876543603713925141/876863898706411570/BB0.gif')
 	    .setFooter('Powered by Azerty Development', 'https://media.discordapp.net/attachments/875462492124508170/875462598609485874/Azerty_Development_-_server___utility.jpg?width=454&height=454')
 	message.channel.send(embed);
 	}
@@ -150,9 +150,9 @@ bot.on('message', async message => {
     if (message.content === "b.info 1") {
         const embed = new Discord.MessageEmbed()
             .setColor('85f16f')
-            .setTitle('Bouncy Bottles #1')
+            .setTitle('Bottle #1')
             .setDescription('[ [View on OpenSea](https://opensea.io/assets/0x495f947276749ce646f68ac8c248420045cb7b5e/70343040351270832787078101729273736097824728322877320639483332715929231425537/) ]\n\n**Description**\n\nCreated by [Alacris](https://opensea.io/Alacris)\nCurrently owned by [Alacris](https://opensea.io/Alacris)\n\n*"Following the swag, comes the goofy delight! Jester the 1st!"*\n\n**Properties**\n\nClass: `Fantasy`\nClassic Bottle: `#1`\n\n**Details**\n\nContract Address: [0x495f947276749ce646f68ac8c248420045cb7b5e](https://etherscan.io/address/0x495f947276749ce646f68ac8c248420045cb7b5e)\nToken ID: `70343040351270832787078101729273736097824728322877320639483332715929231425537`\nBlockchain: `Ethereum`\nMetadata: `Editable`')
-	    .setThumbnail('https://media.discordapp.net/attachments/875785778339405917/875831205768089660/BB1.gif?width=1000&height=1000')
+	    .setThumbnail('https://media.discordapp.net/attachments/876543603713925141/876863901491404840/BB1.gif')
 	    .setFooter('Powered by Azerty Development', 'https://media.discordapp.net/attachments/875462492124508170/875462598609485874/Azerty_Development_-_server___utility.jpg?width=454&height=454')
 	message.channel.send(embed);
 	}
