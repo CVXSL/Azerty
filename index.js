@@ -97,21 +97,21 @@ bot.on('message', async message => {
 // })
 
 // rmint command
-bot.on('message', async message => {
-      if (message.channel.id === '845456151495311390') {
-      if (message.content.startsWith("b.rmint")) {
-	// Outcomes
-        const HatType = ['Cap', 'Tophat', 'Fedora', 'Cowbow',];
-	const HatNumber = ['1', '2', '3', '4', '5', '6', '7', '8', '9', '10',];
+// bot.on('message', async message => {
+//       if (message.channel.id === '845456151495311390') {
+//       if (message.content.startsWith("b.rmint")) {
+// 	// Outcomes
+//         const HatType = ['Cap', 'Tophat', 'Fedora', 'Cowbow',];
+// 	const HatNumber = ['1', '2', '3', '4', '5', '6', '7', '8', '9', '10',];
 	      
-	// Indexes
-        const HatTypeIndex = Math.round(Math.random() * HatType.length);
-	const HatNumberIndex = Math.round(Math.random() * HatNumber.length);
+// 	// Indexes
+//         const HatTypeIndex = Math.round(Math.random() * HatType.length);
+// 	const HatNumberIndex = Math.round(Math.random() * HatNumber.length);
 	      
-        message.channel.send(`Hat Item: ${HatTypeIndex} (\`${HatNumberIndex}\`/10)`);
+//         message.channel.send(`Hat Item: ${HatTypeIndex} (\`${HatNumberIndex}\`/10)`);
 
-      	}
-    });
+//       	}
+//     });
 
 // BOTTLE INFO
 
