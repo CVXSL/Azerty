@@ -153,7 +153,7 @@ bot.on('message', async message => {
 		const Tier1 = new Discord.MessageEmbed()
 		.setColor('388661')
 		.setTitle('Teir 1')
-		.setDescription('> Unbreaking 2\n>Fortune 1\n>Efficiency 3\n\n***$250***')
+		.setDescription('> Unbreaking 2\n> Fortune 1\n> Efficiency 3\n\n***$250***')
 		
 		const Tier2 = new Discord.MessageEmbed()
 		.setColor('388661')
