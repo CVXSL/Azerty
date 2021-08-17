@@ -149,121 +149,31 @@ bot.on('message', async message => {
 //shop Command
 bot.on('message', async message => {
 	if (message.content === "..bedrock server simply shop pickaxe" ) {
-	
-		const Tier1 = new Discord.MessageEmbed()
+	const exampleEmbed = new Discord.MessageEmbed()
 		.setColor('388661')
-		.setTitle('Teir 1')
-		.setDescription('> Unbreaking 2\n> Fortune 1\n> Efficiency 3\n\n***$250***')
-		
-		const Tier2 = new Discord.MessageEmbed()
-		.setColor('388661')
-		.setTitle('Teir 2')
-		.setDescription('> Unbreaking 2\n> Fortune 1\n> Efficiency 4\n\n***$1,000***')
-		
-		const Tier3 = new Discord.MessageEmbed()
-		.setColor('388661')
-		.setTitle('Teir 3')
-		.setDescription('> Unbreaking 2\n> Fortune 2\n> Efficiency 5\n\n***$2,500***')
-		
-		const Tier4 = new Discord.MessageEmbed()
-		.setColor('388661')
-		.setTitle('Teir 4')
-		.setDescription('> Unbreaking 3\n> Fortune 3\n> Efficiency 6\n\n***$3,500***')
-		
-		const Tier5 = new Discord.MessageEmbed()
-		.setColor('388661')
-		.setTitle('Teir 5')
-		.setDescription('> Unbreaking 3\n> Fortune 4\n> Efficiency 7\n\n***$5,000***')
-		
-		const Tier6 = new Discord.MessageEmbed()
-		.setColor('388661')
-		.setTitle('Teir 6')
-		.setDescription('> Unbreaking 4\n> Fortune 4\n> Efficiency 8\n\n***$10,000***')
-		
-		const Tier7 = new Discord.MessageEmbed()
-		.setColor('388661')
-		.setTitle('Teir 7')
-		.setDescription('> Unbreaking 4\n> Fortune 5\n> Efficiency 10\n\n***$15,000***')
-		
-		const Tier8 = new Discord.MessageEmbed()
-		.setColor('388661')
-		.setTitle('Teir 8')
-		.setDescription('> Unbreaking 5\n> Fortune 5\n> Efficiency 12\n\n***$20,000***')
-		
-		const Tier9 = new Discord.MessageEmbed()
-		.setColor('388661')
-		.setTitle('Teir 9')
-		.setDescription('> Unbreaking 5\n> Fortune 6\n> Efficiency 14\n\n***$25,000***')
-		
-		const Tier10 = new Discord.MessageEmbed()
-		.setColor('388661')
-		.setTitle('Teir 10')
-		.setDescription('> Unbreaking 6\n> Fortune 7\n> Efficiency 16\n\n***$30,000***')
-		
-		const Tier11 = new Discord.MessageEmbed()
-		.setColor('388661')
-		.setTitle('Teir 11')
-		.setDescription('> Unbreaking 7\n> Fortune 7\n> Efficiency 18\n\n***$50,000***')
-		
-		const Tier12 = new Discord.MessageEmbed()
-		.setColor('388661')
-		.setTitle('Teir 12')
-		.setDescription('> Unbreaking 7\n> Fortune 8\n> Efficiency 20\n\n***$75,000***')
-		
-		const Tier13 = new Discord.MessageEmbed()
-		.setColor('388661')
-		.setTitle('Teir 13')
-		.setDescription('> Unbreaking 8\n> Fortune 9\n> Efficiency 22\n\n***$100,000***')
-		
-		const Tier14 = new Discord.MessageEmbed()
-		.setColor('388661')
-		.setTitle('Teir 14')
-		.setDescription('> Unbreaking 9\n> Fortune 10\n> Efficiency 24\n\n***$150,000***')
-		
-		const Tier15 = new Discord.MessageEmbed()
-		.setColor('388661')
-		.setTitle('Teir 15')
-		.setDescription('> Unbreaking 10\n> Fortune 11\n> Efficiency 26\n\n***$200,000***')
-		
-		const Tier16 = new Discord.MessageEmbed()
-		.setColor('388661')
-		.setTitle('Teir 16')
-		.setDescription('> Unbreaking 12\n> Fortune 12\n> Efficiency 30\n\n***$250,000***')
-		
-		const Tier17 = new Discord.MessageEmbed()
-		.setColor('388661')
-		.setTitle('Teir 17')
-		.setDescription('> Unbreaking 14\n> Fortune 13\n> Efficiency 35\n\n***$300,000***')
-		
-		const Tier18 = new Discord.MessageEmbed()
-		.setColor('388661')
-		.setTitle('Teir 18')
-		.setDescription('> Unbreaking 14\n> Fortune 14\n> Efficiency 40\n\n***$400,000***')
-		
-		const Tier19 = new Discord.MessageEmbed()
-		.setColor('388661')
-		.setTitle('Teir 19')
-		.setDescription('> Unbreaking 15\n> Fortune 15\n> Efficiency 50\n> Mending 1\n\n***$1,000,000***')
+		.setTitle('Regular Pickaxes')
+		.setDescription('')
+	        .addField('Tier 1', '> Unbreaking 2\n> Fortune 1\n> Efficiency 3\n\n***$250***', false)
+	        .addField('Tier 2', '> Unbreaking 2\n> Fortune 1\n> Efficiency 4\n\n***$1,000***', false)
+	        .addField('Tier 3', '> Unbreaking 2\n> Fortune 2\n> Efficiency 5\n\n***$2,500***', false)
+	        .addField('Tier 4', '> Unbreaking 3\n> Fortune 3\n> Efficiency 6\n\n***$3,500***', false)
+	        .addField('Tier 5', '> Unbreaking 3\n> Fortune 4\n> Efficiency 7\n\n***$5,000***', false)
+	        .addField('Tier 6', '> Unbreaking 4\n> Fortune 4\n> Efficiency 8\n\n***$10,000***', false)
+	        .addField('Tier 7', '> Unbreaking 4\n> Fortune 5\n> Efficiency 10\n\n***$15,000***', false)
+	        .addField('Tier 8', '> Unbreaking 5\n> Fortune 5\n> Efficiency 12\n\n***$20,000***', false)
+	        .addField('Tier 9', '> Unbreaking 5\n> Fortune 6\n> Efficiency 14\n\n***$25,000***', false)
+	        .addField('Tier 10', '> Unbreaking 6\n> Fortune 7\n> Efficiency 16\n\n***$30,000***', false)
+	        .addField('Tier 11', '> Unbreaking 7\n> Fortune 7\n> Efficiency 18\n\n***$50,000***', false)
+	        .addField('Tier 12', '> Unbreaking 7\n> Fortune 8\n> Efficiency 20\n\n***$75,000***', false)
+	        .addField('Tier 13', '> Unbreaking 8\n> Fortune 9\n> Efficiency 22\n\n***$100,000***', false)
+	        .addField('Tier 14', '> Unbreaking 9\n> Fortune 10\n> Efficiency 24\n\n***$150,000***', false)
+	        .addField('Tier 15', '> Unbreaking 10\n> Fortune 11\n> Efficiency 26\n\n***$200,000***', false)
+	        .addField('Tier 16', '> Unbreaking 12\n> Fortune 12\n> Efficiency 30\n\n***$250,000***', false)
+	        .addField('Tier 17', '> Unbreaking 14\n> Fortune 13\n> Efficiency 35\n\n***$300,000***', false)
+	        .addField('Tier 18', '> Unbreaking 14\n> Fortune 14\n> Efficiency 40\n\n***$400,000***', false)
+	        .addField('Tier 19', '> Unbreaking 15\n> Fortune 15\n> Efficiency 50\n> Mending 1\n\n***$1,000,000***', false)
 			
-		message.channel.send(Tier1);
-		message.channel.send(Tier2);
-		message.channel.send(Tier3);
-		message.channel.send(Tier4);
-		message.channel.send(Tier5);
-		message.channel.send(Tier6);
-		message.channel.send(Tier7);
-		message.channel.send(Tier8);
-		message.channel.send(Tier9);
-		message.channel.send(Tier10);
-		message.channel.send(Tier11);
-		message.channel.send(Tier12);
-		message.channel.send(Tier13);
-		message.channel.send(Tier14);
-		message.channel.send(Tier15);
-		message.channel.send(Tier16);
-		message.channel.send(Tier17);
-		message.channel.send(Tier18);
-		message.channel.send(Tier19);
+		message.channel.send(exampleEmbed);
 	}	
 	
 })
