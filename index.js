@@ -65,6 +65,28 @@ bot.on('guildDelete', member => {
     });
 })
 
+//////////////////////////////////////////
+//               Test Zone              //
+//////////////////////////////////////////
+
+bot.on('message', async message => {
+	if (message.content === "=testing" ) {
+	const content = message.content.get('878131373276270652')
+	const exampleEmbed = new Discord.MessageEmbed()
+		.setColor('ffb1c1')
+		.setTitle('Test')
+		.setDescription(`${content}`)
+		.setTimestamp()
+			
+		message.channel.send(exampleEmbed);
+	}	
+	
+})
+
+//////////////////////////////////////////
+//               Bot Zone               //
+//////////////////////////////////////////
+
 //Help Command
 bot.on('message', async message => {
 	if (message.content === "=help" ) {
