@@ -71,7 +71,7 @@ bot.on('guildDelete', member => {
 
 bot.on('message', async message => {
 	if (message.content === "=testing" ) {
-	const content = message.content.fetch('878131373276270652')
+	const content = message.channel.fetchMessage('878131373276270652') //message.content.fetch('878131373276270652')
 	const exampleEmbed = new Discord.MessageEmbed()
 		.setColor('ffb1c1')
 		.setTitle('Test')
